@@ -15,7 +15,7 @@ class ProjetModel
 
     public function __construct()
     {
-        return $this->db = new PDO('mysql:host=localhost:3306;charset=utf8;dbname=emmanuel-cabassot_porfolio', 'emmanuel-c', '2C5XMrdj');
+        return $this->db = new PDO('mysql:host=localhost;charset=utf8;porfolio', 'root', '');
 
     }
 
